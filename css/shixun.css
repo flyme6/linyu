@@ -1,0 +1,203 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #000
+}
+body{
+  background-image: url(../images/bg.jpg);
+}
+.clear-both{
+  width: 10px;
+  height: 10px;
+  clear: both;
+}
+/* -----------begin index.html--------- */
+.flash{
+  position: absolute;
+  margin-left:-350px;
+  margin-top: -210px; 
+  left:50%;
+  top: 50%;
+}
+.flash embed{
+  width:700px;
+  height:420px; 
+}
+.enter{
+  position: relative;
+  margin: 0 0;
+}
+.enter a{
+  color: #ffffff;
+  font-size: 40px;
+  text-decoration: underline;
+}
+/* ----------end index.html----------- */
+
+/* begin content.html----------------- */
+.web{
+  width:980px;
+  margin: 0 auto;
+}
+
+.web .header{
+  width: 100%;
+  height: 344px;
+  background: url("../images/top.png") no-repeat;
+}
+.web .nav{
+  width: 100%;
+  height:45px;
+  background:green;
+}
+.web .nav ul li{
+  float: left; 
+  list-style: none;
+  color: black;
+  font-weight: bold;
+  
+}
+.web .nav .nav_li{
+  height: 45px;
+  width: 127px;
+  background: url("../images/navbg.png") repeat-x;
+  line-height: 53px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+
+}
+.web .nav a:hover{
+  color: #f60;
+  font-size: 15px;
+}
+.web .nav .active a{
+  color: #f60;
+  font-size: 15px;
+}
+.web .nav .first{
+  height: 45px;
+  line-height: 45px;
+  width: 29px;
+  background: url("../images/link1.jpg") no-repeat;
+}
+.web .nav .last{
+  height: 45px;
+  line-height: 45px;
+  width: 62px;
+  background: url("../images/link9.jpg") no-repeat;
+}
+.web .content{
+  width:980px;
+  min-height: 500px;
+}
+.web .content .intro-xm{
+  height:61px; 
+  width:980px;
+  background:url("../images/lanmu1.jpg") no-repeat;
+}
+.web .content .intro-news{
+  height:61px; 
+  width:980px;
+  background:url("../images/lanmu2.jpg") no-repeat;
+}
+.web .content .intro-lf{
+  height:61px; 
+  width:980px;
+  background:url("../images/lanmu3.jpg") no-repeat;
+}
+.web .content .intro-yl{
+  height:61px; 
+  width:980px;
+  background:url("../images/lanmu4.jpg") no-repeat;
+}
+.web .content .intro-size{
+  height:61px; 
+  width:980px;
+  background:url("../images/lanmu5.jpg") no-repeat;
+}
+.web .content .intro-mn{
+  height:61px; 
+  width:980px;
+  background:url("../images/lanmu6.jpg") no-repeat;
+}
+.web .content .intro-lx{
+  height:61px; 
+  width:980px;
+  background:url("../images/lanmu7.jpg") no-repeat;
+}
+.web .content .desc{
+  min-height: 500px;
+  width: 100%;
+  background: url("../images/lmbg.jpg") repeat-y;
+}
+.desc .desc_content{
+    width: 830px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.desc .desc_content .img{
+    display: block;
+    float: left;
+    margin: 10px;
+}
+.desc p{
+  text-indent: 2em;
+  line-height: 22px;
+  font-weight: 14px;
+  margin-top: 5px;
+}
+.desc .desc_img{
+  margin: 0 auto;
+    width: 500px;
+    margin-top: 20px;
+}
+.web .content .bottom{
+  width: 980px;
+  height: 60px;
+  background: url("../images/down.jpg") no-repeat;
+}
+.fotter{
+  margin-left: 203px;
+}
+
+.web .content .news{
+  width: 830px;
+  margin:0 auto;
+  padding: 20px;
+}
+.web .content .news li a{
+  text-decoration: none;
+  color: #f60;
+  height: 30px;
+  line-height: 30px;
+
+}
+.web .content .news li a:hover{
+  text-decoration: underline;
+  color: #000
+}
+.web .content .news li a span{
+  float: right
+}
+.web .content  .desc .tuijian{
+  width: 500px;
+  margin:0 auto;
+  height: 650px;
+  padding-top: 25px;
+}
+
+.web .content  .desc .tuijian li{
+  float: left;
+  margin:10px;
+}
+
+/* --------end content.html----------- */
